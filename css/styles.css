@@ -25,16 +25,28 @@ h3 {
 a {
   color: lightcoral;
 }
+hr{
+    width: 90px;
+    border-style: none;
+    border-top-style: dotted;
+    border-top-width: 10px;
+    border-color: lightcoral;
+}
 .top-container {
   background-color: lightblue;
   padding-top: 100px;
   position: relative;
 }
+.profile-image {
+  margin-top: 30px;
+  border-radius: 100%;
+  object-fit: cover;
+  width: 235px;
+  height: 235px;
+}
 .mid-container {
   position: relative;
-}
-.bottom-container {
-  position: relative;
+  padding-bottom: 50px;
 }
 .top-cloud {
   position: absolute;
@@ -73,10 +85,47 @@ a {
   float: right;
   margin-left: 30px;
 }
-.profile-image {
-  margin-top: 30px;
-  border-radius: 100%;
-  object-fit: cover;
-  width: 235px;
-  height: 235px;
+.contact-me {
+    margin: 50px auto;
 }
+.bottom-container {
+  padding: 30px 0;
+  line-height: 2;
+  position: relative;
+  background-color: lightblue;
+  color: white;
+}
+.mail-button {
+    background: #F08080;
+    background-image: -webkit-linear-gradient(top, #F08080, #BD6464);
+    background-image: -moz-linear-gradient(top, #F08080, #BD6464);
+    background-image: -ms-linear-gradient(top, #F08080, #BD6464);
+    background-image: -o-linear-gradient(top, #F08080, #BD6464);
+    background-image: -webkit-gradient(to bottom, #F08080, #BD6464);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: monospace;
+    font-size: 20px;
+    padding: 10px 20px;
+    border: solid #FF8686 2px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+ }
+ 
+.mail-button:hover {
+    border: solid #FF8686 2px;
+    background: #BD6464;
+    background-image: -webkit-linear-gradient(top, #BD6464, #F08080);
+    background-image: -moz-linear-gradient(top, #BD6464, #F08080);
+    background-image: -ms-linear-gradient(top, #BD6464, #F08080);
+    background-image: -o-linear-gradient(top, #BD6464, #F08080);
+    background-image: -webkit-gradient(to bottom, #BD6464, #F08080);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+ }
