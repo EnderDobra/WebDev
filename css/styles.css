@@ -24,6 +24,8 @@ h3 {
 }
 a {
   color: lightcoral;
+  margin: auto 10px;
+  text-decoration: none;
 }
 hr{
     width: 90px;
