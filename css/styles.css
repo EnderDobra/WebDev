@@ -1,0 +1,20 @@
+
+        body{
+            background-color: magenta;
+            color: rgb(0, 146, 127);
+        }
+        hr {
+            border-style: none;           
+            border-top: mediumspringgreen dotted 8px; 
+            width: 6%;
+        }
+        h1,h3{            
+            color: mediumspringgreen;
+        }
+        .header{
+            vertical-align: top;
+        }
+        .circular{
+            border-radius: 100%;
+        }
+        
